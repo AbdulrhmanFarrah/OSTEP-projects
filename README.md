@@ -5,13 +5,14 @@ The solutions are tuned to pass the OSTEP book tests.
 
 ## Initial-Utilities
 
-Specification: build simple clone of unix utility tools (cat, grep, zip, unzip) with handling any possible errors and enabling multi-file feature <br>
-- cat: read and combine file contents
-- grep:
-- zip:
-- unzip:
+Specification: build simple clone of unix utility tools (cat, grep, zip, unzip) with handling any possible errors and enabling multible files as input <br>
 
 Note: the '>' (Output Redirection) feature is not included in the solution, because the author of the book said that we will gonna take it in the future chapters, so the output is always in the stdout (standard output)
+
+- cat: read and combine file contents
+- grep: search for specific text within files
+- zip: compress file or multiple files
+- unzip: decompress file or multiple files
 
 ## Compilation
 
